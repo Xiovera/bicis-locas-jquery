@@ -16,20 +16,19 @@
   <body>
     <section class="form-container">
       <div class="container-fluid">
-        <form class="form-signup" action="execute.php" method="post" onSubmit="validacion(evt);">
+        <form class="form-signup" action="execute.php" method="post">
           <h2 id="form-signup-heading">
             Bicis Locas
           </h2>
           <div class="name-container input-box">
             <label for="name" class="sr-only">Nombre</label>
             <input type="text" id="name" class="form-control"
-            placeholder="Ingrese su nombre" onKeyup="validaName()">
+            placeholder="Ingrese su nombre">
           </div>
           <div class="lastname-container input-box">
             <label for="lastname" class="sr-only">Apellido</label>
             <input type="text" id="lastname" class="form-control"
-            placeholder="Ingrese su apellido" onkeyup="hola()" >
-            <div id="h">NEGFEVF</div>
+            placeholder="Ingrese su apellido">
           </div>
           <div class="email-container input-box">
             <label for="inputEmail" class="sr-only">
@@ -67,7 +66,8 @@
       </div>  
     </section>
     <!-- /container -->
-    <script type='text/javascript' src='js/main.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+    <script type='text/javascript' src='js/my-jquery.js'></script>
     <script type='text/javascript' src='js/donottouchthisfile.js'></script>
   </body>
 </html>
